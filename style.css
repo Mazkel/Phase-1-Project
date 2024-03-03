@@ -1,0 +1,77 @@
+body{
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+h1{
+    background-color: chartreuse;
+    border-radius: 5px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#animeContainer {
+    position: absolute;
+    height: 1850px;
+    top: 250px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    
+}
+
+#animeContainer p {
+    margin: 0;
+    color: antiquewhite;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+    text-align: center;
+}
+
+#hoverTxt{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+#hoverBox{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    top: 20px;
+    left:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#dblClick{
+    position:absolute;
+    font-weight: bold;
+    background-color:aquamarine;
+    color: black;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#btn{
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
